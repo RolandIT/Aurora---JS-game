@@ -1,0 +1,81 @@
+canvas{
+	display:block;  
+	border:1px solid black;
+	background:url(../img/background.png) 
+}
+.stats{
+	margin:0 auto;
+	position:relative;
+	height:500px;
+	width:500px;
+}
+.gameinfo{
+	display:none;
+	background: rgba(255, 255, 255, .5);
+	position:absolute;
+	top:0px;
+	left:0px;
+	color:white;
+}
+.gameinfo p{
+	padding: 0;
+	margin:0;
+	display:block;
+	float:left;
+	text-align:left;
+	font-size:10px;
+}
+.gameinfo img{
+	float:left;
+	width:20px;
+	height:20px;
+}
+button{
+	width:25%;
+	margin:5px;
+	height:55px;
+}
+.controls{
+	text-align:center;
+	width:500px;
+	margin:15px auto;
+}
+.menu{
+	display:block;
+	position:relative;
+	top:-85%;
+	width:150px;
+	margin:15px auto;
+}
+.menu button {
+	width:100%;
+}
+.menu h1 {
+	text-align:center;
+	color:white;
+}
+#playAgain{
+	position:relative;
+	top:-60%;
+	width:150px;
+	margin:15px auto;
+	display:none;
+}
+#endgame{
+	text-align:center;
+	color:white;
+	display:none;
+	position:relative;
+	top:-85%;
+	width:250px;
+	margin:15px auto;
+}
+#howto{
+	text-align:center;
+	color:white;
+	display:none;
+	position:relative;
+	top:-85%;
+	width:250px;
+	margin:15px auto;
+}
